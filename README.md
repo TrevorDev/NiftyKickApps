@@ -26,7 +26,7 @@ How to write apps is still in progress and I would love your feedback.
   - Build your app
   - Create pull request
 
-Example app that displays 2 cubes, one infront of user and one that is placed on their hand
+# Example app
 ```
 // Reference to libs
 var os = window.niftyOS
