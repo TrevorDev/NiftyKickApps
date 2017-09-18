@@ -1,14 +1,20 @@
-# NiftyKickApps (More Coming soon)
+# NiftyKickApps
 Apps and Guides for Niftykick.com
 Demo video: https://www.youtube.com/watch?v=R3xZ1G291Ks
 
-How to write apps is still in progress and I would love your feedback.
+This repo is for developers looking to quickly make a webVR application with:
+  - No annoyingly large SDK dependencies (Unity, Unreal, etc)
+  - App model (Multi-tasking, buttons, windowing mode)
+  - Simple APIs (No need to learn hardware specific APIs, or deal with raw WebVR apis)
+  - Easy cross platform (WebVR will run on any OS and any device soon enouph)
 
+How to write apps is still in progress and I would love your feedback.
 # Required dependenies
   - Nodejs (https://nodejs.org/en/)
   - Typescript enabled editor (Recomended: https://code.visualstudio.com/, Others: https://atom.io/, https://www.sublimetext.com/)
   - VR enabled browser (https://www.mozilla.org/en-US/firefox/new/)
   - Git (https://git-scm.com/)
+  - VR Headset (Currently only tested with Vive https://www.vive.com/us/)
 
 # Guide
   - Install dependencies above
