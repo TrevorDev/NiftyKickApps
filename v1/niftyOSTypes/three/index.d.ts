@@ -30,4 +30,4 @@ export * from "./three-transformcontrols";
 export * from "./three-vrcontrols";
 export * from "./three-vreffect";
 
-export as namespace THREE_CLASSIC;
+export as namespace THREE;

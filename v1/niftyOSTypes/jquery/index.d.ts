@@ -32,8 +32,8 @@ declare module 'jquery/dist/jquery.slim' {
     export = jQuery;
 }
 
-declare var jQuery: JQueryStatic;
-declare var $: JQueryStatic;
+declare const jQuery: JQueryStatic;
+declare const $: JQueryStatic;
 
 // Used by JQuery.Event
 type _Event = Event;

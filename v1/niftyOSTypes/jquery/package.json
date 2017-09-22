@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1\\helloWorld"
+      "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1"
     ]
   ],
   "_from": "@types/jquery@latest",
@@ -36,14 +36,13 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
   "_resolved": "https://registry.npmjs.org/@types/jquery/-/jquery-3.2.12.tgz",
   "_shasum": "f496823108c3874c97c9a822e675a3926ee64b46",
   "_shrinkwrap": null,
   "_spec": "@types/jquery",
-  "_where": "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1\\helloWorld",
+  "_where": "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1",
   "contributors": [
     {
       "name": "Leonard Thieu",

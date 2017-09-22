@@ -1,4 +1,3 @@
-
 import { Camera, Matrix4, Renderer, Scene } from "./three-core";
 
 export class VREffect {

@@ -4,39 +4,39 @@ declare class Button {
     onRelease(): void;
 }
 declare class App {
-    libs: {
-        THREE: typeof THREE_CLASSIC;
-        $: typeof jQuery;
-        UI: {
-            createButton: (mesh: THREE_CLASSIC.Mesh) => Button;
-        };
-    };
     onClose(): void;
     onFrame(delta: number, time: number): void;
     stage: {
-        add: (obj: THREE_CLASSIC.Object3D) => void;
-        remove: (obj: THREE_CLASSIC.Object3D) => void;
+        add: (obj: THREE.Object3D) => void;
+        remove: (obj: THREE.Object3D) => void;
     };
     input: {
         body: {
             head: {
-                position: () => THREE_CLASSIC.Vector3;
-                rotation: () => THREE_CLASSIC.Quaternion;
+                position: () => THREE.Vector3;
+                rotation: () => THREE.Quaternion;
             };
             leftHand: {
-                position: () => THREE_CLASSIC.Vector3;
-                positionChange: () => THREE_CLASSIC.Vector3;
-                rotation: () => THREE_CLASSIC.Quaternion;
-                rotationChange: () => THREE_CLASSIC.Quaternion;
+                position: () => THREE.Vector3;
+                positionChange: () => THREE.Vector3;
+                rotation: () => THREE.Quaternion;
+                rotationChange: () => THREE.Quaternion;
             };
             rightHand: {
-                position: () => THREE_CLASSIC.Vector3;
-                rotation: () => THREE_CLASSIC.Quaternion;
+                position: () => THREE.Vector3;
+                rotation: () => THREE.Quaternion;
             };
         };
     };
 }
 declare class NiftyOS {
+    libs: {
+        THREE: typeof THREE;
+        $: typeof jQuery;
+        UI: {
+            createButton: (mesh: THREE.Mesh) => Button;
+        };
+    };
     launchApp: (url: string) => Promise<void>;
     createApp(): App;
 }

@@ -10,16 +10,16 @@
         "spec": "latest",
         "type": "tag"
       },
-      "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1\\helloWorld"
+      "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1"
     ]
   ],
   "_from": "@types/three@latest",
-  "_id": "@types/three@0.84.20",
+  "_id": "@types/three@0.84.22",
   "_inCache": true,
   "_location": "/@types/three",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/three-0.84.20.tgz_1503510897529_0.10538037912920117"
+    "tmp": "tmp/three-0.84.22.tgz_1505769911158_0.17626366624608636"
   },
   "_npmUser": {
     "name": "types",
@@ -36,14 +36,13 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/@types/three/-/three-0.84.20.tgz",
-  "_shasum": "1c47dc40f3964b9832036b77837f19e9a6130bba",
+  "_resolved": "https://registry.npmjs.org/@types/three/-/three-0.84.22.tgz",
+  "_shasum": "ad1a7293bfeb7cc4a657c23ef020cd7e14d1efeb",
   "_shrinkwrap": null,
   "_spec": "@types/three",
-  "_where": "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1\\helloWorld",
+  "_where": "C:\\Users\\trevo\\workspace\\NiftyKickApps\\v1",
   "contributors": [
     {
       "name": "Kon",
@@ -101,9 +100,9 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "integrity": "sha512-5SVtzdrU4HkJC8oxoinkmFKkCScP+ErymEIGKBB3PS4EFoB+0b0iZpa/SB/RMl//BQux02gDUml5TMip2AtNEQ==",
-    "shasum": "1c47dc40f3964b9832036b77837f19e9a6130bba",
-    "tarball": "https://registry.npmjs.org/@types/three/-/three-0.84.20.tgz"
+    "integrity": "sha512-wpPr/IxNaotvyOcCQuqz0iSKTlp4MOmPj1ml08BZOxhXEDH5tl8RJfFGgNuTeWoo95lVYYvruKLEnamMyfJKZw==",
+    "shasum": "ad1a7293bfeb7cc4a657c23ef020cd7e14d1efeb",
+    "tarball": "https://registry.npmjs.org/@types/three/-/three-0.84.22.tgz"
   },
   "license": "MIT",
   "main": "",
@@ -122,6 +121,6 @@
   },
   "scripts": {},
   "typeScriptVersion": "2.0",
-  "typesPublisherContentHash": "6e16a6874ef362aa133b3721132026ee153a6d5001d2829487b3c1f678b99071",
-  "version": "0.84.20"
+  "typesPublisherContentHash": "b3cc6344a437c50c3f0e54d7bc9b78c54b72d31a9c74ccfc0fdb08d7e2cd0cfa",
+  "version": "0.84.22"
 }
