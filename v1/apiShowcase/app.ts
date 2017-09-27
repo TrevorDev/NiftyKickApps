@@ -11,6 +11,7 @@ var main = async()=>{
 	
 	//Runs once per frame
 	app.onFrame = (deltaTime, curTime)=>{
+		//console.log(app.input.body.rightHand.position())
 		box.position.x = Math.sin(curTime/1000)
 	}
 }

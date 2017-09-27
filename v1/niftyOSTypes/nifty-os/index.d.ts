@@ -27,15 +27,16 @@ declare class App {
                 rotation: () => THREE.Quaternion;
             };
         };
+        UI: {
+            createButton: (mesh: THREE.Mesh) => Button;
+            removeButton: (btn: Button) => boolean;
+        };
     };
 }
 declare class NiftyOS {
     libs: {
         THREE: typeof THREE;
         $: typeof jQuery;
-        UI: {
-            createButton: (mesh: THREE.Mesh) => Button;
-        };
     };
     launchApp: (url: string) => Promise<void>;
     createApp(): App;

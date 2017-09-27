@@ -20,14 +20,12 @@ How to write apps is still in progress and I would love your feedback.
   - Install dependencies above
   - Open command prompt window (cmd)
   - Install typescript (run: npm install typescript -g)
-  - Install serve (run: npm install serve -g)
   - Checkout this git repo (run: git checkout https://github.com/TrevorDev/NiftyKickApps)
-  - Navigate to v1 folder (run: cd NiftyKickApps;cd v1;)
-  - Run typescript to build all files (This is only needed once after checkout) (run: tsc)
-  - Start typescript build on save (tsc -w)
-  - Open another command prompt and navigate to v1 folder
-  - Start local server (run: serve .) (This will start a local server at http://localhost:5000)
-  - Try out the existing local hello world app (http://niftykick.com/niftyreality?http://localhost:5000/helloWorld/helloWorld.js)
+  - Navigate to NiftyKickApps folder (run: cd NiftyKickApps;)
+  - Run typescript to build all files and rebuild on file changes (tsc -w)
+  - Open another command prompt and navigate to NiftyKickApps folder
+  - Start local server (run: node server.js) (This will start a local js file server, test at http://localhost:3008/v1/helloWorld/app.js)
+  - Try out the existing local hello world app (http://niftykick.com/niftyreality?appUrl=http://localhost:3008/v1/helloWorld/app.js&launcher=false)
   - Modify helloWorld.ts file and observe changes take effect on refresh
   - Build your app
   - Create pull request
