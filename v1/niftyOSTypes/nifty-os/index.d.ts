@@ -3,6 +3,14 @@ declare class Button {
     onPress(): void;
     onRelease(): void;
 }
+
+declare class WebVRControllerButton {
+    pressed: boolean;
+    justPressed: boolean;
+    justReleased: boolean;
+    value: number;
+}
+
 declare class App {
     onClose(): void;
     onFrame(delta: number, time: number): void;
@@ -18,13 +26,19 @@ declare class App {
             };
             leftHand: {
                 position: () => THREE.Vector3;
-                positionChange: () => THREE.Vector3;
                 rotation: () => THREE.Quaternion;
-                rotationChange: () => THREE.Quaternion;
+                buttons: {
+                    trigger: () => WebVRControllerButton;
+                    menu: () => WebVRControllerButton;
+                };
             };
             rightHand: {
                 position: () => THREE.Vector3;
                 rotation: () => THREE.Quaternion;
+                buttons: {
+                    trigger: () => WebVRControllerButton;
+                    menu: () => WebVRControllerButton;
+                };
             };
         };
         UI: {

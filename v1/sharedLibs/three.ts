@@ -1,2 +1,3 @@
 import os from "./niftyOS"
-export default os.libs.THREE
+var x = os.libs.THREE
+export default x
