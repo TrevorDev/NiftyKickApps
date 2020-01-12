@@ -9,7 +9,7 @@ This repo is for developers looking to quickly make a webVR application with:
   - Easy cross platform (WebVR will run on any OS and any device soon enouph)
 
 How to write apps is still in progress and I would love your feedback.
-# Required dependenies
+# Required dependencies
   - Nodejs (https://nodejs.org/en/)
   - Typescript enabled editor (Recomended: https://code.visualstudio.com/, Others: https://atom.io/, https://www.sublimetext.com/)
   - VR enabled browser (https://www.mozilla.org/en-US/firefox/new/)
